@@ -64,7 +64,7 @@ Setup conda environment (recommended).
 **Create a conda environment**
 
 ```
-conda create -y -n skipt python=3.8
+conda create -y -n skip python=3.8
 conda activate skip
 ```
 
