@@ -88,7 +88,7 @@ python setup.py develop
 ```
 cd ..
 
-git clone github.com/Koorye/SkipTuning.git
+git clone https://github.com/Koorye/SkipTuning.git
 cd SkipTuning/
 
 pip install -r requirements.txt
