@@ -13,7 +13,7 @@ const title = 'Skip Tuning:'
 const title_color = '#000000'
 
 // 标题补充，没有则置为''即可
-const title_supp = 'Pre-trained Vision-Language Models are Effective and Efficient Adapters Themselves'
+const title_supp = 'Pre-trained Vision-Language Models are\nEffective and Efficient Adapters Themselves'
 
 // 作者清单（包含作者姓名、头像、主页、地址序号）
 const authors = [
@@ -273,9 +273,9 @@ const buttons = [
   text-align: center;
 }
 
-/* 标题补充：渐变文字（长标题缩小一号） */
+/* 标题补充：渐变文字 */
 .title-supp {
-  font-size: 2.2rem;
+  white-space: pre-line;
   background: linear-gradient(120deg, var(--pcd-accent), #7c5cf0);
   -webkit-background-clip: text;
   background-clip: text;
