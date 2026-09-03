@@ -1,5 +1,3 @@
 **Is freezing VLMs really efficient?**
 Although prompt tuning significantly reduces learnable parameters (using 1/51200 of full finetuning),
 it reduces only **6.3% memory usage** and **15.8% time cost**, while classification accuracy drops by **3.49%** (base) and **4.49%** (new).
-
-The key insight: effective and efficient transfer requires reducing both the **length** and **width** of the *feature-gradient propagation flows* (FGPFs) of the full finetuning baseline.

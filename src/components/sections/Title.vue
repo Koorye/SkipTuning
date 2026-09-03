@@ -7,7 +7,7 @@ import { Link, Document } from '@element-plus/icons-vue'
 const logo = ''
 
 // 标题
-const title = 'Skip Tuning'
+const title = 'Skip Tuning:'
 
 // 标题颜色
 const title_color = '#000000'
@@ -273,8 +273,9 @@ const buttons = [
   text-align: center;
 }
 
-/* 标题补充：渐变文字 */
+/* 标题补充：渐变文字（长标题缩小一号） */
 .title-supp {
+  font-size: 2.2rem;
   background: linear-gradient(120deg, var(--pcd-accent), #7c5cf0);
   -webkit-background-clip: text;
   background-clip: text;
