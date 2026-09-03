@@ -75,15 +75,13 @@ const addresses = [
 const con_and_corresponding_author = "*Corresponding author"
 
 const news = [
-  "🔥Jan 26, 2026: 🎉🎉Our paper has been accepted by ICLR 2026!🎉🎉",
-  "🔥Nov 20, 2025: LeRobot Version of PCD is now available on GitHub.",
-  "🔥May 23, 2025: Our paper has been updated for better clarity and readability. The optimized version is now available on arXiv.",
-  "🔥May 20, 2025: The paper is now available on arXiv."
+  "🔥Feb 27, 2025: 🎉🎉Our paper has been accepted by CVPR 2025!🎉🎉",
+  "🔥Nov 15, 2024: Training and evaluation codes for SkipTuning are released."
 ]
 
 // 强调内容
 const emphases = [
-  "🎉🎉Our paper has been accepted by ICLR 2026!🎉🎉"
+  "🎉🎉Our paper has been accepted by CVPR 2025!🎉🎉"
 ]
 
 // 提供引导资料链接
