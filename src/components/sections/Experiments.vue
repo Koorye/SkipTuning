@@ -1,5 +1,7 @@
 <script setup>
 import experiment from '../mds/experiment.mdx';
+import experiment2 from '../mds/experiment2.mdx';
+import experiment3 from '../mds/experiment3.mdx';
 </script>
 
 <template>
@@ -11,8 +13,10 @@ import experiment from '../mds/experiment.mdx';
                 <el-image src="./exp1.png" class="caption-img" fit="cover" />
                 <experiment class="caption-text" />
             </div>
-            <el-image src="./exp2.png" class="caption-img" fit="cover" />
-            <el-image src="./exp3.png" class="caption-img" fit="cover" />
+            <el-image src="./exp2.png" class="figure-img" fit="cover" />
+            <experiment2 class="figure-text" />
+            <el-image src="./exp3.png" class="figure-img" fit="cover" />
+            <experiment3 class="figure-text" />
         </el-col>
     </el-row>
 
@@ -25,6 +29,7 @@ import experiment from '../mds/experiment.mdx';
   margin-bottom: 20px;
 }
 
+/* 图 1：与文字左右排版 */
 .caption-box {
     display: flex;
     align-items: center;
@@ -43,6 +48,19 @@ import experiment from '../mds/experiment.mdx';
 
 .caption-text {
     margin: 0;
+}
+
+/* 后续图：全栏 + 下方配文字 */
+.figure-img {
+    width: 100%;
+    margin: 20px 0 0;
+    border-radius: 12px;
+    border: 1px solid var(--pcd-border);
+    box-shadow: var(--pcd-shadow-soft);
+}
+
+.figure-text {
+    margin: 16px 0 20px;
 }
 
 @media (max-width: 992px) {
