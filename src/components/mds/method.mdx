@@ -1,0 +1,7 @@
+**Framework.**
+Built upon the full finetuning baseline, Skip Tuning introduces two training-free-structure skipping strategies:
+
+- **Layer-wise Skipping (LSkip)** — caches intermediate features from the deeper layers of CLIP's encoders, cutting the *length* of feature-gradient propagation flows;
+- **Classwise Skipping (CSkip)** — filters out unimportant class tokens via a lightweight cache, cutting the *width* of the flows.
+
+No extra context vectors, no adapter modules — the pre-trained VLM itself is the most effective and efficient adapter.
